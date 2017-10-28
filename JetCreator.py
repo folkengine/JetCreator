@@ -43,7 +43,7 @@ import img_favicon
 import img_New
 
 provider = wx.SimpleHelpProvider()
-wx.HelpProvider_Set(provider)
+wx.HelpProvider.Set(provider)
 
 
 class JetCreator(wx.Frame):
