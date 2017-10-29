@@ -103,3 +103,4 @@ ENV/
 # Added
 .idea
 JetCreator.ini
+*.jtc

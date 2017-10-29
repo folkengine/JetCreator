@@ -218,7 +218,7 @@ class SegmentGraph(wx.Panel):
             if OsWindows():
                 dc = wx.BufferedDC(wx.ClientDC(self), self._Buffer)
             else:
-                dc = wx.AutoBufferedPaintDC(self)
+                dc = wx.ClientDC(self)
                 dc.Background = wx.Brush(wx.WHITE)
                 
         dc.Clear()
